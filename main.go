@@ -94,7 +94,7 @@ func main() {
 	mgr, err := ctrl.NewManager(ctrl.GetConfigOrDie(), ctrl.Options{
 		Scheme:                 myscheme,
 		MetricsBindAddress:     metricsAddr,
-		Port:                   9443,
+		Port:                   9444,
 		SyncPeriod:             &syncPeriod,
 		HealthProbeBindAddress: probeAddr,
 		LeaderElection:         enableLeaderElection,
